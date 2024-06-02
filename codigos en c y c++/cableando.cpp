@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    long int N=0, K=0, k, limite, suma=0, diferencia, Max, Min, i;
+    long int N=0, K, k, limite, suma=0, diferencia, Max, Min, i;
     limite=pow(10,9);
     while(N<1 || N>200000 || K<0 || K>limite){ cin>>N>>K; }
     Max=K; Min=K;
